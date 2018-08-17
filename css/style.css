@@ -1,0 +1,37 @@
+.top-bar {
+    margin: 0px;
+    background-color: #121e29;
+    padding: 0px 200px;
+
+}
+
+.top-bar ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    float: none;
+}
+
+.bottom {
+    margin: 0px;
+    padding: 0px 200px;
+    background: rgb(18,30,41);
+    background: linear-gradient(0deg, rgba(18,30,41,1) 7%, rgba(18,30,41,1) 34%, rgba(76,86,95,1) 59%, rgba(104,112,121,1) 75%, rgba(89,100,121,1) 100%);
+    color: whitesmoke
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #596479; /* font color of top bar*/
+    text-align: none;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+li a:hover:not: (.active) {
+    background-color: #111;
+}

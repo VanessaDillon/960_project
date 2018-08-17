@@ -15,13 +15,17 @@
 
 body {
   min-width: 960px;
+  background-color: #f2f2f2;
+  font-family: 'Oswald', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* `Container
 ----------------------------------------------------------------------------------------------------*/
-
-.container_12,
-.container_16 {
+.bottom,
+.top-bar,
+.container_12 {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
@@ -46,7 +50,6 @@ body {
 .grid_14,
 .grid_15,
 .grid_16 {
-  display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
